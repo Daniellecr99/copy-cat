@@ -1,0 +1,46 @@
+
+body {margin: 0; background-color: rgb(152, 65, 160);}
+
+.flexbox-container {display: flex;
+    flex-wrap: wrap; flex-direction: row;  }
+
+.first {background-color: rgb(51, 51, 51);}
+
+.one, .two, .three {margin: 0 10px;}
+.four {margin-left: auto;
+    margin-right: 10px;
+}
+
+.three {animation: rotation 8s infinite linear;}
+@keyframes rotation { 
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    } }
+
+.five {flex-wrap:wrap; margin-left: 100px ;}
+
+.third {
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-top: -302px;
+            margin-left: 230px;
+        }
+
+        .six, .seven, .eight {  display: flex;
+            justify-content: space-around;
+           width: min-content;
+    
+            } 
+
+
+            .six, .seven, .eight  {animation: rotation 8s infinite linear;}
+            @keyframes rotation { 
+                from {
+                  transform: rotate(0deg);
+                }
+                to {
+                  transform: rotate(359deg);
+                } }
